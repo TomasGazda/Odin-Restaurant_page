@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Dancing Script', cursive;
+    background: black;
+
+
+}
+#pills-home-tab.active,#pills-profile-tab.active,#pills-contact-tab.active{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border-bottom: 1px white solid;
+}
+.landing-page{
+    display: grid;
+    flex: 1;
+    grid-template-columns: 3fr 7fr;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+#history{
+    flex: 1;
+    background-image: url('./italian-cuisine.jpg');  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+#history-main{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+#contact{
+    flex: 1;
+    background-image: url('./rome.jpg');  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+
+}
+#contact-main{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+
+.left{
+    background-image: url('./pizza.jpg');
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-top-right-radius:30% 40%;
+    border-bottom-right-radius:30% 40%;
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.right{
+    background: black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
